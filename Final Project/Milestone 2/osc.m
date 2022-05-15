@@ -1,4 +1,4 @@
-file='C:\Users\katez\Documents\MIZ 2021-2022\FIRST SEMESTER\Applied Electronic Instrumentation\Lab 6\Lab6\6_1Data.txt';
+file='/Users/madi/Documents/GitHub/MATLAB/Final Project/Milestone 2/Milestone 2 Data.txt';
 fileID=fopen(file);
 data=textscan(fileID, '%s %s %s %s','Delimiter','\t');
 fclose(fileID);
